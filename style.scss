@@ -11,14 +11,14 @@
         background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
         font-family: sans-serif;
         color: #fff;
-        .location, .temperature {
+        .location, .temperature-section {
             height: 30vh;
             width: 50%;
             display: flex;
             justify-content: space-around;
             align-items: center;
         }
-        .temperature {
+        .temperature-section {
             flex-direction: column;
             .degree-section {
                 display: flex;
