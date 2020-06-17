@@ -22,7 +22,6 @@ window.addEventListener('load', ()=>{
             })
             .then(data => {
                 // shows object notation in console
-                // console.log(data);
                 const {temperature, summary, icon} = data.currently;
                 // sets DOM elements from the API
                 temperatureDegree.textContent = temperature;
